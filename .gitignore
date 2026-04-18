@@ -1,0 +1,24 @@
+# Credenciales
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Modelos entrenados
+models_artifacts/
+
+# Snapshots de datos (opcionales, pesados)
+data/snapshots/
+data/external/
+
+# Reportes generados
+reports/figures/
+reports/metrics/
+reports/exports/
